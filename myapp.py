@@ -24,7 +24,7 @@ Y = np.array(w)
 
 # Sidebar
 # Header of Specify Input Parameters
-st.sidebar.header('Put your info in!')
+st.sidebar.header('Put your 3 Mile PR from XC Season in!')
 
 def user_input_features():
     gender = st.sidebar.slider('Gender (0 for female/ 1 for male)', 0, 1, 0)
