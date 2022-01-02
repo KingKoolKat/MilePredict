@@ -49,7 +49,7 @@ df = user_input_features()
 # Main Panel
 
 # Print specified input parameters
-st.header('What you put in')
+st.header('Put the info in the sidebar on the left (I think there is a button in the top left corner)')
 st.write(df)
 st.write('---')
 
