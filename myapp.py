@@ -58,5 +58,5 @@ model = pickle.load(open('running_model.pkl', 'rb'))
 prediction = model.predict(df)
 
 st.header('Prediction of your Mile PR during next Track Season')
-st.write(str(int(prediction/60))+":"+str(float(prediction)%60))
+st.write(str(int(prediction/60))+":"+str((float(prediction)%60))-((float(prediction)%60)%.01))
 st.write('---')
