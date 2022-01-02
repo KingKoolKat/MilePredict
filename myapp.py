@@ -8,11 +8,11 @@ from sklearn.ensemble import RandomForestRegressor
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.write("""
-# Predict what your mile PR will be by the end of track season (do this after xc season)
-This app uses data from the 2020/2021 DGN XC/Track Team to predict what your mile PR will be in the next Track Season (You can use this as motivation during winter training)
+# Predict what your mile PR will be by the end of track season (do this after xc season) - made by jon hogg
+This app uses data from the 2020/2021 DGN XC/Track Team to predict what your mile PR will be in the next Track Season (You can use this as motivation during winter training) 
 """)
 st.write("""
-It will not be that accurate for anyone on the extreme ends of the spectrum because I didn't have much data, but I hope its looks kinda cool regardless - jon hogg
+It will not be that accurate for anyone on the extreme ends of the spectrum because I didn't have much data, but I hope its looks kinda cool regardless. I put a good 2 days of work into this :) (manually formatted all the data, used machine learning to create a regression model, created the web app elements, deployed to heroku etc...)
 """)
 st.write('---')
 # load up the data
